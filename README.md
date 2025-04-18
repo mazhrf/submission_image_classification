@@ -2,23 +2,27 @@
 
 Proyek ini merupakan implementasi deep learning untuk mengklasifikasikan gambar menjadi dua kelas: **Kucing 🐱** dan **Anjing 🐶**. Model ini dilatih menggunakan Keras dan TensorFlow dengan dataset yang diproses melalui `ImageDataGenerator`.
 
-## 📁 Struktur Proyek
-submission_image_classification
-├───tfjs_model
-| ├───group1-shard1of3.bin
-| ├───group1-shard2of3.bin
-| ├───group1-shard3of3.bin
-| └───model.json
-├───tflite
-| ├───model.tflite
-| └───label.txt
-├───saved_model
-| ├───saved_model.pb
-| ├───fingrprint.pb
-| └───variables
-├───notebook.ipynb
-├───README.md
-└───requirements.txt
+submission_image_classification/
+├── tfjs_model/               
+│   ├── group1-shard1of3.bin
+│   ├── group1-shard2of3.bin
+│   ├── group1-shard3of3.bin
+│   └── model.json
+│
+├── tflite/                  
+│   ├── model.tflite
+│   └── label.txt
+│
+├── saved_model/             
+│   ├── saved_model.pb
+│   ├── fingerprint.pb
+│   └── variables/
+│       ├── variables.data-00000-of-00001
+│       └── variables.index
+│
+├── image_classification.ipynb           
+├── README.md               
+└── requirements.txt         
 
 ## 🧠 Model
 
