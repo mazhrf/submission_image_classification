@@ -40,7 +40,6 @@ Model dibangun menggunakan TensorFlow Keras dengan arsitektur CNN dasar. Output 
    - Loss Function: Binary Crossentropy.
 3. **Evaluasi dan Visualisasi**:
    - Menampilkan grafik akurasi dan loss.
-   - Membuat confusion matrix.
 4. **Inference**:
    - Mengunggah gambar untuk prediksi.
    - Menampilkan hasil klasifikasi dan confidence.
