@@ -2,6 +2,7 @@
 
 Proyek ini merupakan implementasi deep learning untuk mengklasifikasikan gambar menjadi dua kelas: **Kucing 🐱** dan **Anjing 🐶**. Model ini dilatih menggunakan Keras dan TensorFlow dengan dataset yang diproses melalui `ImageDataGenerator`.
 
+```plaintext
 submission_image_classification/
 ├── tfjs_model/               
 │   ├── group1-shard1of3.bin
@@ -23,6 +24,7 @@ submission_image_classification/
 ├── image_classification.ipynb           
 ├── README.md               
 └── requirements.txt         
+```
 
 ## 🧠 Model
 
